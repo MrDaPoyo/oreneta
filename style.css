@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+
+body {
+  overflow: hidden;
+  font-family: "Pixelify Sans", sans-serif;
+  background-color: #ffff9f;
+}
+
+#logo {
+  height: 200px;
+  margin: -45px;
+  padding: 0;
+  z-index: 2;
+  pointer-events: none;
+  filter: blur(0.5px);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: auto;
+  width: 100%;
+  height: 90vh;
+}
+#container {
+  z-index: 1;
+  width: 500px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  height: 10vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+}
+
+#random {
+  margin: 10px;
+}
+
+footer p, footer a {
+  margin: auto;
+  width: auto; 
+}
+
+#field {
+  width: 45%;
+  margin-right: 2.5%;
+}
+
+#submit {
+  width: auto;
+}
+
+input {
+  font-family: "pixelify sans", sans-serif;
+  font-size: 0.6em;
+}
+::placeholder {
+  text-align: left;
+  padding: 2%;
+}
